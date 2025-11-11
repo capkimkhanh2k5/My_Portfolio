@@ -16,6 +16,7 @@ import {
   FaReact,
   FaVuejs,
   FaYarn,
+  FaFacebook,
 } from "react-icons/fa6";
 import {
   RiFirebaseFill,
@@ -43,26 +44,26 @@ import { TbTerminal2 } from "react-icons/tb";
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "naresh.khatri2345@gmail",
-    href: "mailto:naresh.khatri2345@gmail.com",
+    content: "capkimkhanh@gmail",
+    href: "mailto:capkimkhanh@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
     name: "Phone",
-    content: "1234567890",
-    href: "tel:1234567890",
+    content: "0839117789",
+    href: "tel:0839117789",
     icon: <FaPhone height={"50px"} />,
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/naresh-khatri/",
-    content: "/naresh-khatri",
-    icon: <FaLinkedin height={"50px"} />,
+    name: "Facebook",
+    href: "https://www.facebook.com/capkhanhs",
+    content: "/capkhanhs",
+    icon: <FaFacebook height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Naresh-Khatri",
-    content: "/naresh-khatri",
+    href: "https://github.com/capkimkhanh2k5",
+    content: "/capkhanhs",
     icon: <FaGithub height={"50px"} />,
   },
 ];
@@ -251,7 +252,7 @@ function Page() {
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
-                <p className="text-center text-xl">Naresh Khatri</p>
+                <p className="text-center text-xl">Cap Kim Khanh</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
                   Web Developer
                 </div>
@@ -287,7 +288,7 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Naresh, a Fullstack developer passionate about
+              Hey there! I&apos;m Khanh, a BackEnd developer passionate about
               creating meaningful digital experiences. With great in Web
               development, I thrive on turning ideas into reality through coding
               and design. My journey began with a fascination for technology and
@@ -331,34 +332,6 @@ function Page() {
                 </Splide>
               )}
             </div>
-            {/* <div className="">
-              <Splide
-                options={{
-                  type: "loop",
-                  interval: 2000,
-                  autoplay: true,
-                  pagination: false,
-                  speed: 3000,
-                  perPage: 5,
-                  perMove: 1,
-                  rewind: true,
-                  easing: "cubic-bezier(0.25, 1, 0.5, 1)",
-                  arrows: false,
-                }}
-                aria-label="My Favorite Images"
-              >
-                {TOOLS.map((tool) => (
-                  <SplideSlide key={tool.name}>
-                    <div
-                      key={tool.name}
-                      className="w-fit p-2 border-[.5px] border-zinc-600 rounded-md"
-                    >
-                      {tool.icon}
-                    </div>
-                  </SplideSlide>
-                ))}
-              </Splide>
-            </div> */}
           </div>
         </main>
       </div>
