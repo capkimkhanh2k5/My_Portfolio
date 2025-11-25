@@ -1,5 +1,5 @@
 const config = {
-  title: "Cap Kim Khanh | Back-End Developer",
+  title: "Khanh Cap Developer",
   description: {
     long: "I'm Khanh, a Back-End Developer passionate about building robust and scalable systems. I specialize in server-side logic, database management, and API development. Let's build something amazing together!",
     short:
