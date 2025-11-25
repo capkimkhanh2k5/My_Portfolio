@@ -1,26 +1,26 @@
 const config = {
   title: "Cap Kim Khanh | Back-End Developer",
   description: {
-    long: "Explore the portfolio of Khanh, a back-end developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work. Let's build something amazing together!",
+    long: "I'm Khanh, a Back-End Developer passionate about building robust and scalable systems. I specialize in server-side logic, database management, and API development. Let's build something amazing together!",
     short:
-      "Discover the portfolio of Khanh, a back-end developer creating interactive web experiences and innovative projects.",
+      "Khanh - Back-End Developer specializing in building robust and scalable systems.",
   },
   keywords: [
     "Khanh",
+    "Cap Kim Khanh",
     "portfolio",
     "back-end developer",
-    "creative technologist",
     "web development",
-    "3D animations",
-    "interactive websites",
-    "web design",
-    "React",
-    "Next.js",
-    "Spline",
-    "Framer Motion",
+    "Java",
+    "Spring Boot",
+    "Node.js",
+    "Database",
+    "API",
   ],
   author: "Cap Kim Khanh",
-  email: "capkimkhanh@gmail.com",
+  email: "capkimkhanh2k5@gmail.com",
+  phone: "0839117789",
+  cv: "exampleCV",
   site: "https://capkhanhs.id.vn",
 
   get ogImg() {
@@ -28,7 +28,7 @@ const config = {
   },
   social: {
     instagram: "https://www.instagram.com/capkhanhs/",
-    facebook: "https://www.facebook.com/capkhanhs",
+    facebook: "https://web.facebook.com/capkhanhs",
     github: "https://github.com/capkimkhanh2k5",
     linkedin: "#",
     twitter: "#",

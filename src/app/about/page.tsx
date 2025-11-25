@@ -41,29 +41,31 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { TbTerminal2 } from "react-icons/tb";
 
+import { config } from "@/data/config";
+
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "capkimkhanh@gmail",
-    href: "mailto:capkimkhanh@gmail.com",
+    content: config.email,
+    href: `mailto:${config.email}`,
     icon: <FaEnvelope height={"50px"} />,
   },
   {
     name: "Phone",
-    content: "0839117789",
-    href: "tel:0839117789",
+    content: config.phone,
+    href: `tel:${config.phone}`,
     icon: <FaPhone height={"50px"} />,
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/capkhanhs",
+    href: config.social.facebook,
     content: "/capkhanhs",
     icon: <FaFacebook height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/capkimkhanh2k5",
-    content: "/capkhanhs",
+    href: config.social.github,
+    content: "/capkimkhanh2k5",
     icon: <FaGithub height={"50px"} />,
   },
 ];
@@ -252,9 +254,9 @@ function Page() {
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
-                <p className="text-center text-xl">Cap Kim Khanh</p>
+                <p className="text-center text-xl">{config.author}</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Back-End Developer
                 </div>
               </div>
             </div>
@@ -287,17 +289,11 @@ function Page() {
             style={{ backdropFilter: "blur(2px)" }}
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
-            <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Khanh, a BackEnd developer passionate about
-              creating meaningful digital experiences. With great in Web
-              development, I thrive on turning ideas into reality through coding
-              and design. My journey began with a fascination for technology and
-              a drive to make a positive impact.
-            </p>
+            <p className="mb-10 text-roboto">{config.description.long}</p>
             <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
-              while brainstorming my next project.
+              When I&apos;m not coding, you can find me exploring new technologies,
+              optimizing database queries, or sipping coffee while brainstorming
+              my next system architecture.
             </p>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
