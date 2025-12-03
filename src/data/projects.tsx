@@ -499,9 +499,9 @@ const projects: Project[] = [
     category: "Portfolio",
     title: "My Portfolio",
     src: "/assets/projects-screenshots/portfolio/landing.png",
-    screenshots: ["1.png"],
+    screenshots: ["landing.png", "navbar.png", "project.png", "projects.png", "skills.png"],
     live: "http://nareshkhatri.vercel.app",
-    github:"https://github.com/Naresh-Khatri/Portfolio",
+    github: "https://github.com/Naresh-Khatri/Portfolio",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -567,7 +567,7 @@ const projects: Project[] = [
     src: "/assets/projects-screenshots/ghostchat/1.png",
     screenshots: ["1.png", "2.png", "3.png", "4.png"],
     live: "https://ghostchat.vercel.app",
-    github:"https://github.com/Naresh-Khatri/GhostChat",
+    github: "https://github.com/Naresh-Khatri/GhostChat",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.chakra],
       backend: [PROJECT_SKILLS.supabase],

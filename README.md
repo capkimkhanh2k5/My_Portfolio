@@ -83,6 +83,10 @@ This portfolio is built using a modern, robust stack designed for performance an
 *A dedicated section highlighting my top projects with detailed insights.*
 ![Projects](/public/assets/projects-screenshots/portfolio/projects.png)
 
+### 🧩 Single Project View
+*Detailed view of a specific project.*
+![Project Detail](/public/assets/projects-screenshots/portfolio/project.png)
+
 ### 🌌 Immersive Space Theme
 *Dark mode enabled with floating particles for an "out-of-this-world" feel.*
 ![Navbar & Theme](/public/assets/projects-screenshots/portfolio/navbar.png)
